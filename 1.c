@@ -209,3 +209,8 @@ int main()
   return 0;
 #endif  
 }
+
+int master()
+{
+return 0;
+}
