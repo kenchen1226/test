@@ -209,3 +209,9 @@ int main()
   return 0;
 #endif  
 }
+
+
+int test()
+{//
+	return 0;
+}
