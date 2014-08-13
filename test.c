@@ -10,7 +10,7 @@
 #include <time.h>
 #include <unistd.h>
 
-char str[32]="version 1";
+char str[32]="version 2";
 
 pthread_mutex_t locker;
 pthread_cond_t th_cond;
