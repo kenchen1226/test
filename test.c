@@ -10,7 +10,7 @@
 #include <time.h>
 #include <unistd.h>
 
-
+char str[32]="version 1";
 
 pthread_mutex_t locker;
 pthread_cond_t th_cond;
@@ -174,7 +174,9 @@ int fun6()
 
 int main() 
 {     
-    fun6();
+printf(str);
+printf("\n");    
+//fun6();
 /*
     char *tmp=NULL;
     tmp=(char *)malloc(32);
